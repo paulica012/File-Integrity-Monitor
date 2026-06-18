@@ -1,16 +1,11 @@
-# 1. Folderul mediului virtual (Virtual Environment)
-# Înlocuiește linia de mai jos cu numele real al folderului tău care conține Lib și Scripts (ex: venv/)
 venv/
 .venv/
 env/
 
-# 2. Fișiere și directoare de configurare PyCharm
 .idea/
 
-# 3. Cache Python
 __pycache__/
 *.pyc
 
-# 4. Fișiere generate de scriptul nostru la rulare
 baseline.json
 test_folder/
