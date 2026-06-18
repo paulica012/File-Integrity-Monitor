@@ -16,7 +16,7 @@ def get_file_hash(filepath):
 
 
 def check_integrity(folder_path, baseline_file="baseline.json"):
-    """Compara starea actuala a fișierelor cu starea salvata anterior."""
+    """Compara starea actuala a fisierelor cu starea salvata anterior."""
     current_hashes = {}
 
     for root, _, files in os.walk(folder_path):
